@@ -1,15 +1,6 @@
----
-name: Compatibility Report
-about: A template for reporting game compatibility
-title: 'Compatibility Report'
-labels: 'Report'
-assignees: 'None'
-
----
-
 name: "Compatibility Report"
 description: Report a game's compatibility.
-title: "🐛 [REPORT] - <title>"
+title: "[REPORT] - <title>"
 labels: [
   "report"
 ]
@@ -22,7 +13,6 @@ body:
       placeholder: Game name...
     validations:
       required: true
-
   - type: input
     id: region
     attributes:
@@ -31,7 +21,6 @@ body:
       placeholder: ex. Japan, USA, Europe, World...
     validations:
       required: true
-
   - type: dropdown
     id: bios
     attributes:
@@ -56,7 +45,6 @@ body:
         - Fully working
     validations:
       required: true
-
   - type: textarea
     id: description
     attributes:
