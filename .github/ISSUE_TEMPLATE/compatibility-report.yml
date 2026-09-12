@@ -47,8 +47,8 @@ body:
       description: What BIOS did you test it on ?
       multiple: true
       options:
-        - Open Source BIOS
-        - Retail BIOS
+        - Open Source
+        - Retail
     validations:
       required: true
   - type: dropdown
