@@ -1,9 +1,6 @@
 name: "Compatibility Report"
 description: Report a game's compatibility.
 title: "[REPORT] - <title>"
-labels: [
-  "report"
-]
 body:
   - type: input
     id: title
