@@ -25,12 +25,30 @@ body:
         - Game Boy Color
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: region
     attributes:
       label: "Region"
-      description: Please enter the specific region of the game
-      placeholder: ex. Japan, USA, Europe, World...
+      description: What is the game's region
+      multiple: true
+      options:
+        - Japan
+        - USA
+        - Europe
+        - Multi Region
+        - World
+        - Australia
+        - Brazil
+        - Canada
+        - China
+        - Denmark
+        - France
+        - Germany
+        - Italy
+        - Korea
+        - Netherlands
+        - Spain
+        - Sweden
     validations:
       required: true
   - type: dropdown
