@@ -1,6 +1,6 @@
 name: "Compatibility Report"
 description: Report a game's compatibility.
-title: "[REPORT] - <Game Name Here>"
+title: "<Game Name Here>"
 body:
   - type: dropdown
     id: system
